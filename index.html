@@ -6,29 +6,18 @@
 <title>勝春中藥房｜漢方養生</title>
 
 <style>
-/* ===== 全站設定 ===== */
 body {
     margin: 0;
-    font-family: "Noto Serif TC", "PingFang TC", serif;
+    font-family: "Noto Serif TC", serif;
     background-color: #f4f1e9;
     color: #2f2f2f;
     line-height: 1.9;
 }
 
-h1, h2, h3 {
-    letter-spacing: 2px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* ===== Header（中藥背景・無版權） ===== */
 header {
     background:
         linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-        url("https://images.unsplash.com/photo-1604908554026-7d4d5c4a965b");
+        url("images/header.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -46,21 +35,19 @@ header p {
     color: #e6d7a3;
 }
 
-/* ===== Nav ===== */
 nav {
     background: #000;
     border-bottom: 2px solid #c9a24d;
     position: sticky;
     top: 0;
-    z-index: 100;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
@@ -70,9 +57,9 @@ nav li {
 nav a {
     color: #c9a24d;
     font-weight: bold;
+    text-decoration: none;
 }
 
-/* ===== Section ===== */
 section {
     max-width: 1100px;
     margin: auto;
@@ -83,19 +70,15 @@ section h2 {
     text-align: center;
     font-size: 38px;
     margin-bottom: 50px;
-    color: #2f4f3e;
 }
 
-/* ===== 卡片 ===== */
 .card {
     background: #fff;
     border: 2px solid #c9a24d;
     border-radius: 16px;
     padding: 45px;
-    box-shadow: 0 12px 30px rgba(0,0,0,.12);
 }
 
-/* ===== 服務項目 ===== */
 .services {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -122,50 +105,6 @@ section h2 {
     margin: 18px 0 10px;
 }
 
-.service p {
-    padding: 0 15px 25px;
-    font-size: 15px;
-}
-
-/* ===== 產品 ===== */
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 28px;
-}
-
-.product {
-    background: #111;
-    border: 2px solid #c9a24d;
-    border-radius: 14px;
-    padding: 28px;
-    color: #eee;
-}
-
-.product h3 {
-    color: #c9a24d;
-}
-
-/* ===== 表單 ===== */
-form input, form textarea {
-    width: 100%;
-    padding: 14px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    font-family: inherit;
-}
-
-form button {
-    background: #000;
-    color: #c9a24d;
-    border: 2px solid #c9a24d;
-    padding: 12px 35px;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-/* ===== Footer ===== */
 footer {
     background: #000;
     color: #c9a24d;
@@ -173,29 +112,21 @@ footer {
     padding: 55px 15px;
     border-top: 5px solid #c9a24d;
 }
-
-/* ===== RWD ===== */
-@media (max-width:600px) {
-    header h1 {
-        font-size: 40px;
-    }
-}
 </style>
 </head>
 
 <body>
 
 <header>
-    <h1>勝春中藥房</h1>
-    <p>專業 · 誠信 · 關懷</p>
+<h1>勝春中藥房</h1>
+<p>專業 · 誠信 · 關懷</p>
 </header>
 
 <nav>
 <ul>
-    <li><a href="#about">關於我們</a></li>
-    <li><a href="#services">服務項目</a></li>
-    <li><a href="#products">產品介紹</a></li>
-    <li><a href="#contact">聯絡我們</a></li>
+<li><a href="#about">關於我們</a></li>
+<li><a href="#services">服務項目</a></li>
+<li><a href="#contact">聯絡我們</a></li>
 </ul>
 </nav>
 
@@ -204,19 +135,10 @@ footer {
 <div class="card">
 <p>
 勝春中藥房創立於在地數十年，以「專業、誠信、關懷」為核心理念，
-致力於傳承中醫藥文化，結合現代健康觀念，
-提供高品質的中藥材與專業調配服務。
+致力於傳承中醫藥文化，結合現代健康觀念，提供高品質的中藥材與專業調配服務。
 </p>
 <p>
-本藥房由具備專業中醫藥背景的團隊經營，嚴選道地藥材，
-確保安全、有效。
-</p>
-<p>
-除傳統處方調劑外，亦提供養生茶飲、保健配方及日常調理建議，
-幫助顧客達到身心平衡與健康維持。
-</p>
-<p>
-勝春中藥房秉持用心服務的精神，守護每一位顧客的健康，
+秉持用心服務的精神，守護每一位顧客的健康，
 成為社區居民信賴的健康夥伴。
 </p>
 </div>
@@ -227,71 +149,34 @@ footer {
 <div class="services">
 
 <div class="service">
-<img src="https://images.unsplash.com/photo-1615486364462-ef636c2c1e3a">
+<img src="images/service1.jpg">
 <h3>傳統中藥材</h3>
-<p>嚴選道地藥材，品質安心。</p>
 </div>
 
 <div class="service">
-<img src="https://images.unsplash.com/photo-1626204327506-d2e3b20c6a78">
+<img src="images/service2.jpg">
 <h3>體質諮詢</h3>
-<p>依個人狀況提供調養建議。</p>
 </div>
 
 <div class="service">
-<img src="https://images.unsplash.com/photo-1609840114035-3c981b782b91">
+<img src="images/service3.jpg">
 <h3>養生茶飲</h3>
-<p>日常保健，溫潤回甘。</p>
 </div>
 
 <div class="service">
-<img src="https://images.unsplash.com/photo-1582719478185-2f2b1b1d3b7b">
+<img src="images/service4.jpg">
 <h3>客製抓藥</h3>
-<p>專業調配，貼合需求。</p>
 </div>
 
 <div class="service">
-<img src="https://images.unsplash.com/photo-1617957743103-310accdf25b7">
+<img src="images/service5.jpg">
 <h3>節氣禮盒</h3>
-<p>送禮自用皆宜。</p>
 </div>
 
 <div class="service">
-<img src="https://images.unsplash.com/photo-1615485925873-fb3f6b4a5e23">
+<img src="images/service6.jpg">
 <h3>藥膳調理</h3>
-<p>居家養生首選。</p>
 </div>
-
-</div>
-</section>
-
-<section id="products">
-<h2>產品介紹</h2>
-<div class="products">
-<div class="product"><h3>四季養生茶</h3><p>順應節氣，日常飲用。</p></div>
-<div class="product"><h3>補氣漢方</h3><p>調整體力與精神。</p></div>
-<div class="product"><h3>潤喉茶飲</h3><p>長時間用聲者適用。</p></div>
-<div class="product"><h3>藥膳包</h3><p>簡單燉煮，營養滿分。</p></div>
-</div>
-</section>
-
-<section id="contact">
-<h2>聯絡我們</h2>
-<div class="card">
-<p>📍 台南市新化區中正路369巷42號之1</p>
-<p>📞 06-5906735</p>
-
-<form>
-<input type="text" placeholder="姓名">
-<input type="tel" placeholder="電話">
-<textarea rows="4" placeholder="諮詢內容"></textarea>
-<button type="submit">送出</button>
-</form>
-
-<iframe 
-src="https://www.google.com/maps?q=台南市新化區中正路369巷42號之1&output=embed"
-width="100%" height="300" style="border:0;" loading="lazy">
-</iframe>
 
 </div>
 </section>
