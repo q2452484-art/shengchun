@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>勝春中藥房｜百年漢方養生</title>
+
+<style>
+/* ===== 基本設定 ===== */
+body {
+    margin: 0;
+    font-family: "Noto Serif TC", "PingFang TC", serif;
+    background-color: #f5f1e8;
+    color: #3b3b3b;
+    line-height: 1.9;
+}
+
+a { text-decoration: none; }
+
+/* ===== Header ===== */
+header {
+    background: linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://images.unsplash.com/photo-1582719478250-c89cae4dc85b");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 140px 20px;
+}
+
+header h1 {
+    font-size: 56px;
+    letter-spacing: 6px;
+}
+
+header p {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+/* ===== Nav ===== */
+nav {
+    background: #3a4a3f;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    padding: 15px 25px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* ===== Section ===== */
+section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 20px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #2f4f3e;
+}
+
+/* ===== 卡片 ===== */
+.card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    margin-bottom: 40px;
+}
+
+/* ===== 服務 ===== */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 25px;
+}
+
+.service {
+    background: #eef1eb;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* ===== 產品 ===== */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    gap: 25px;
+}
+
+.product {
+    background: #f0f3ee;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* ===== 表單 ===== */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+form button {
+    background: #3a4a3f;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #2f3f35;
+    color: #fff;
+    text-align: center;
+    padding: 40px 15px;
+}
+
+/* ===== RWD ===== */
+@media (max-width:600px) {
+    header h1 { font-size: 40px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>勝春中藥房</h1>
+    <p>傳承百年 · 漢方養生 · 調和四時</p>
+</header>
+
+<nav>
+<ul>
+    <li><a href="#about">關於我們</a></li>
+    <li><a href="#services">服務項目</a></li>
+    <li><a href="#products">產品介紹</a></li>
+    <li><a href="#contact">聯絡我們</a></li>
+</ul>
+</nav>
+
+<section id="about">
+<h2>關於勝春</h2>
+<div class="card">
+<p>
+勝春中藥房位於台南新化，是一間傳承百年以上的老字號漢方藥鋪。
+秉持「誠信用藥、對症調養」的精神，融合傳統智慧與現代養生觀，
+陪伴無數家庭走過四季更迭。
+</p>
+<p>
+我們相信，真正的健康來自於長期的調和，而非一時的補強。
+</p>
+</div>
+</section>
+
+<section id="services">
+<h2>服務項目</h2>
+<div class="services">
+<div class="service">🌿 傳統中藥材</div>
+<div class="service">🧑‍⚕️ 體質諮詢</div>
+<div class="service">🍵 養生茶飲</div>
+<div class="service">📦 客製抓藥</div>
+<div class="service">🎁 節氣禮盒</div>
+<div class="service">🥣 藥膳調理</div>
+</div>
+</section>
+
+<section id="products">
+<h2>產品介紹</h2>
+<div class="products">
+<div class="product"><h3>四季養生茶</h3><p>依節氣調配，溫潤回甘。</p></div>
+<div class="product"><h3>補氣漢方</h3><p>調整日常體力與精神。</p></div>
+<div class="product"><h3>潤喉茶飲</h3><p>長時間用聲者適用。</p></div>
+<div class="product"><h3>藥膳包</h3><p>居家簡單燉煮。</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>聯絡我們</h2>
+<div class="card">
+
+<p>📍 台南市新化區中正路369巷42號之1</p>
+<p>📞 06-5906735</p>
+
+<h3>📩 線上諮詢</h3>
+<form>
+<input type="text" placeholder="姓名">
+<input type="tel" placeholder="電話">
+<textarea rows="4" placeholder="諮詢內容"></textarea>
+<button type="submit">送出</button>
+</form>
+
+<h3>🗺 店家位置</h3>
+<iframe 
+src="https://www.google.com/maps?q=台南市新化區中正路369巷42號之1&output=embed"
+width="100%" height="300" style="border:0;" loading="lazy">
+</iframe>
+
+</div>
+</section>
+
+<footer>
+<p>© 勝春中藥房</p>
+<p>百年漢方 · 調養身心</p>
+</footer>
+
+</body>
+</html>
